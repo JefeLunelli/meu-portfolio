@@ -1,0 +1,287 @@
+body{
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+}
+
+h1, h3{
+    padding: 0.4em;
+    width: 80%;
+    margin: auto;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    background-color: grey;
+    margin-block: 44px;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+.paragrafo{
+    background-color: grey;
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Adicionado contorno preto */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2.3em;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+    padding: 1em;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+/* Linhas estéticas */
+#hr1 {
+    margin-bottom: 50px;
+    border: none;
+    border-top: 5px solid black;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.hr-frequencia {
+    margin-top: 50px !important;
+    border: none;
+    border-top: 5px solid black;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+/* Fim das Linhas estéticas */
+
+/* Vídeos */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    height: 0;
+    padding-bottom: 34%;
+    margin: 0 auto;
+}
+
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: solid rgb(82, 82, 82) 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+
+#video-mobile{
+    border: solid rgb(82, 82, 82) 10px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    
+}
+/* Fim dos Vídeos */
+
+/* Subtitulos usados */
+.titulos{
+    width: 70%;
+    margin: auto;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    background-color: grey;
+    margin-block: 64px;
+    border-radius: 15px;
+    border: solid black 5px;
+}
+/* Fim dos Subtitulos usados */
+
+
+/* iFrames */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    max-width: 60%;
+    height: 0;
+    padding-bottom: 50%; /* Ajuste este valor para aumentar a altura do iframe */
+    margin: 0 auto;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+/* Fim dos iFrames */
+
+/* Inicio */
+#home-container {
+    display: flex;
+    align-items: center;
+}
+
+#home {
+    display: inline-block;
+    background-color: white; /* Fundo branco */
+    color: black; /* Texto preto */
+    padding: 20px 30px; /* Aumenta o preenchimento para aumentar o tamanho do botão */
+    margin: 20px 0; /* Adiciona uma margem no topo e na parte inferior */
+    border: 3px solid black; /* Borda preta */
+    border-radius: 30px; /* Bordas arredondadas */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5em; /* Aumenta o tamanho da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adiciona uma transição suave ao efeito de sombra e transformação */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);git add
+}
+
+#home:hover {
+    background-color: #ddd; /* Fundo cinza claro ao passar o mouse */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Sombra mais forte ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão em 5% ao passar o mouse */
+}
+
+
+.bi {
+    font-size: 3em; /* Aumenta o tamanho da fonte */
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.9); /* Adiciona sombra */
+    margin: 0.3em;
+
+}
+
+.download a {
+    display: inline-block;
+    background-color: white; /* Fundo branco */
+    color: black; /* Texto preto */
+    padding: 20px 30px; /* Aumenta o preenchimento para aumentar o tamanho do botão */
+    margin: 8px 0;
+    border: 2px solid black; /* Borda preta */
+    border-radius: 30px; /* Bordas arredondadas */
+    cursor: pointer;
+    width: 14em; /* Define um tamanho padrão para os botões */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto mais forte */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adiciona uma transição suave ao efeito de sombra e transformação */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.download a:hover {
+    background-color: #ddd; /* Fundo cinza claro ao passar o mouse */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); /* Aumenta o tamanho do botão em 5% ao passar o mouse */
+}
+
+/* Fim dos Ícones */
+
+/* Responsividade */
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 2em;
+        padding: 1em;
+    }
+    
+    .paragrafo{
+        font-size: 1.3em;
+        padding: 1.3em;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulos{
+        font-size: 1.2em;
+        padding: 1em;
+    }
+    
+    .download{
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #video-mobile {
+        border: solid rgb(82, 82, 82) 10px;
+        box-sizing: border-box;
+        width: 93%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video-container {
+        left: -10px;
+        padding-bottom: 56.25%; /* Proporção 16:9 para vídeos responsivos */
+        text-align: center; /* Centraliza o conteúdo horizontalmente */
+        margin: 0 auto; /* Centraliza o conteúdo na tela */
+        max-width: 90%; /* Evita que o contêiner ultrapasse a largura da tela */
+    }
+
+    .video-container iframe {
+        width: 100%; /* Mantenha a largura em 100% para ocupar a largura total do contêiner */
+        height: 100%; /* Mantenha a altura em 100% para manter a proporção 16:9 */
+    }
+}
+
+/* CSS para dispositivos com largura de tela de até 768px (modo mobile) */
+@media screen and (max-width: 768px) {
+    .iframe-container {
+        width: 90%;
+        padding-bottom: 56.25%;
+        position: relative;
+        margin: 0 auto; /* Isso centraliza o .iframe-container na página */
+    }
+
+    .iframe-container iframe {
+        width: 450%;
+        height: 500%;
+        position: absolute;
+        top: 0;
+        left: -17%;
+        transform: scale(0.3); /* Ajuste o nível de zoom conforme necessário */
+        transform-origin: 0 0; /* Define o ponto de origem do zoom */
+        margin: auto; /* Isso centraliza o iframe no .iframe-container */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .iframe-container {
+        width: 90%;
+        padding-bottom: 56.25%;
+        position: relative;
+        margin: 0 auto; /* Isso centraliza o .iframe-container na página */
+        margin-bottom: 200px; /* Ajuste conforme necessário para mover o botão e o ícone mais para baixo na página */
+    }
+
+    .iframe-container iframe {
+        width: 500%;
+        height: 600%;
+        position: absolute;
+        top: 0;
+        left: -25%;
+        transform: scale(0.3); /* Ajuste o nível de zoom conforme necessário */
+        transform-origin: 0 0; /* Define o ponto de origem do zoom */
+        margin: auto; /* Isso centraliza o iframe no .iframe-container */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #home {
+        display: block;
+        width: 90px;
+        height: 35px; 
+        margin: 20px auto 0; 
+        font-size: 30px; 
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .bi{
+        font-size: 1.6em;
+    }
+}

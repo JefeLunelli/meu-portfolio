@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/projeto1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Enquetes do Zoom</h1>
+
+    <hr id="hr1">
+
+        <p class="paragrafo">Semanalmente participo de reuniões pelo Zoom, e para terem uma ideia de quem está participando editavam as enquetes CSV pelo Excel, porém isso tomava muito tempo até estilizar e salvar como PDF o arquivo com um total de pessoas no final.</p>
+<br>
+        <p class="paragrafo">Foi aí que fiz algo mais automático, onde não precisaria perder 10 minutos fazendo toda semana o mesmo processo, consegui fazer com meio de muita pesquisa um leitor de arquivo CSV, onde ele separa por células cada nome, irei mostrar as funções detalhadamente abaixo.</p>
+<br>
+
+    <hr class="hr-frequencia">
+
+    <h3 class="titulos">Vídeo no computador</h3>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/e_7_WTu4c_8" allow="autoplay; fullscreen;" title="Projeto no pc"></iframe>
+    </div>
+
+      <hr class="hr-frequencia">
+
+      <h3 class="titulos">Vídeo em aparelhos Mobile</h3>
+
+      <video controls id="video-mobile">
+        <source src="img/Mobile.mp4" type="video/mp4">
+        <source src="filme.ogg" type="video/ogg">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+      
+      <hr class="hr-frequencia">
+
+      <p class="download"><i class="bi bi-download"></i>
+        <a href="arquivos/2674548583 - Relatório da Enquete.csv" download class="download">Baixar arquivo CSV para teste</a></p>
+
+        <p class="download"><i class="bi bi-box-arrow-up-left"></i>
+        <a href="https://enqueteszoom.vercel.app" class="download" target="_blank">Site oficial para gerar o PDF</a></p>
+
+      <br><br>
+
+      <div class="iframe-container">
+        <iframe src="https://enqueteszoom.vercel.app" id="iframe"></iframe>
+      </div>   
+
+      <i class="bi bi-house" id="home-icone"></i>
+      
+      <a href="index.html" id="home">Home</a>
+      
+      <hr class="hr-frequencia">
+</body>
+</html>

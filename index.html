@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Ícone da página -->
+    <link rel="shortcut icon" type="image/png" href="img/J-icon.png"/>
+    <!-- Fim do ícone da página -->
+    <title>Portfólio Jeferson</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <img src="img/JL-png.png" alt="Logo JL" id="jlpng">
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#secao-sobre" id="link-sobre">Sobre</a></li>
+                    <li><a href="#secao-projetos" id="link-projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            
+            <div class="btn-contato" id="btn-contato">
+                <a href="#secao-contato">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x"></i>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+    
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h3>Olá mundo!</h3>
+                            <h1>Sou um programador <span>Front-End</span> em desenvolvimento.</h1>
+                            <p>Transformando meus desejos em realidade, enquanto desafios existir, os sonhos aumentam para evoluir.</p>
+                        </div><!--txt-topo-site-->
+                        
+                        <div class="img-topo-site">
+                            <img src="img/imagem-perfil.png" alt="Jeferson perfil" id="imgperfil">
+                        </div><!--img-topo-site-->
+                    </div><!--flex-->
+                </div><!--interface-->
+            </section><!--topo-do-site-->
+            
+            <section class="sobre" id="secao-sobre">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="img-sobre">
+                            <img src="img/outra-perfil.jpeg" alt="Outra imagem Jeferson" id="outraperfil">
+                        </div><!--img-sobre-->
+                        
+                        <div class="txt-sobre">
+                            <h2>MUITO PRAZER, <span>SOU JEFERSON LUNELLI MONTIBELLER.</span></h2>
+                            <p>Tenho 21 anos de idade, e começei do 0 no Entra21 DE 2023 sobre Angular.</p>
+                            <p>Estou conseguindo estudar além do curso do Entra21 para aprender mais e estou gostando muito, qualquer oportunidade que eu conseguir vou agarrar e fazer bom proveito.</p>
+                            <p>Trabalhei 3 anos em empresas como talhador, agora quero seguir meu sonho.</p>
+                            <p>Prosseguindo na busca de fundamentos teóricos que me permitam iniciar uma variedade de projetos com o propósito de aprimorar minhas habilidades na área.</p>
+                            <p>Sou determinado, corro atrás das soluções, otimista e persistente, amo trabalhar em equipe e sou muito comunicativo, aberto para mudar e aceitar novas ideias.</p>
+                            <h3>O que estou estudando?</h3>
+                            
+                            <ul>
+                                <li>Java Básico</li>
+                            <li>Javascript | HTML | CSS</li>
+                            <li>TypeScript</li>
+                            <li>Angular</li>
+                            <li>Banco de Dados Relacional</li>
+                            <li>Node</li>
+                            <li>Programação Orientada a Objetos</li>
+                            <li>Git e GitHub</li>
+                        </ul>
+
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/jeferson-lunelli/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio" id="secao-projetos">
+            <div class="interface">
+                <h2 class="titulo">MEUS PROJETOS <br><br><span id="tragetoria">(INICIO DA TRAJETÓRIA)</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/primeiro-projeto.png);">
+                        <a href="primeiro-projeto.html">
+                            <div class="overlay">Primeiro projeto</div>
+                        </a>
+                    </div><!--flex-->
+                </div><!--interface-->
+            </section><!--portfolio-->
+            
+            <section class="formulario" id="secao-contato">
+                <div class="interface">
+                    <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+                    
+                    <form action="https://formsubmit.co/jefersonlunellimontibeller@gmail.com" method="post">
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                        <input type="text" name="email" id="email" placeholder="Seu e-mail:" required>
+                        <textarea name="mensagem" cols="30" rows="10" id="mensagem" placeholder="Digite sua mensagem"required></textarea>
+                        <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                        
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <input type="hidden" name="accessKey" value="e4cc3f4811aa6d5757de276eb5dbd28b">
+                        <input type="hidden" name="_next" value="https://portfolio-jeferson.vercel.app/obrigado.html">
+                    </form>
+                </div><!--interface-->
+            </section><!--formulario-->
+            
+        </main>
+        
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                        <img src="img/JL-png.png" alt="Logotipo Jeferson" id="logo-em-baixo">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="arquivos/Portfólio_Jeferson.pdf" target="_blank"><button><i class="bi bi-file-earmark-arrow-up"></i></button></a>
+                        <a href="https://www.linkedin.com/in/jeferson-lunelli/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/JefeLunelli" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://api.whatsapp.com/send/?phone=47992570202&text&type=phone_number&app_absent=0/" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+            
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope"></i> <a href="mailto:jefersonlunellimontibeller@gmail.com">jefersonlunellimontibeller@gmail.com</a></p>
+                <p><i class="bi bi-telephone"> 47 99257-0202</i></p>
+                <p><i class="bi bi-geo-alt"> Brazil | SC | Indaial</i></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+    
+    <script src="JS/menu.js"></script>
+</body>
+</html>

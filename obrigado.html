@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição do seu site">
+    <link rel="stylesheet" href="CSS/obrigado.css">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 2.2em;
+        }
+
+        .hr-frequencia {
+            margin-top: 20px;
+        }
+
+        #countdown {
+    color: #ffffff; /* Define a cor do texto para branco */
+    font-size: 2em; /* Define o tamanho da fonte */
+}
+
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Obrigado pela mensagem!</h1>
+    <p>Em breve entrarei em contato :D</p>
+
+    <hr class="hr-frequencia">
+
+    <p id="countdown"></p>
+
+    <script>
+        var timeleft = 5;
+        var countdownTimer = setInterval(function () {
+            document.getElementById("countdown").innerHTML = "Voltando para a página inicial em: " + timeleft;
+            timeleft -= 1;
+            if (timeleft <= 0) {
+                clearInterval(countdownTimer);
+                window.location.href = 'index.html'; // Redireciona para a página inicial
+            }
+        }, 1000);
+    </script>
+
+</body>
+
+</html>
